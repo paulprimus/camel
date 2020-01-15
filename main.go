@@ -21,7 +21,7 @@ func main() {
 	log.SetOutput(logout)
 	log.Println("WebServer startet")
 
-	InitMessages()
+	InitIndexModel()
 	fs := http.FileServer(http.Dir("static"))
 	http.Handle("/static/", http.StripPrefix("/static/", fs))
 	http.HandleFunc("/main", handler)
@@ -34,7 +34,7 @@ func main() {
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	log.Println("loading index")
-	model := LookUp(language.German)
+	model := LookUpModel(language.German)
 	tmpl := template.Must(template.ParseFiles("templates/index.html"))
 	err := tmpl.Execute(w, model)
 	if err != nil {

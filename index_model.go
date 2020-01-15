@@ -16,10 +16,10 @@ type NavModel struct {
 	Kontakt string
 }
 
-func InitMessages() {
+func InitIndexModel() {
 	messages = map[language.Tag]IndexModel{
 		language.German: IndexModel{
-			Titel: "Tourenyyyy",
+			Titel: "Touren",
 			Nav: NavModel{
 				Touren:  "asdfsadf",
 				Kontakt: "konkat",
@@ -35,6 +35,6 @@ func InitMessages() {
 	}
 }
 
-func LookUp(tag language.Tag) IndexModel {
+func LookUpModel(tag language.Tag) IndexModel {
 	return messages[tag]
 }
