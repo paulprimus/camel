@@ -1,0 +1,155 @@
+
+2020/01/13 12:13:00 WebServer startet
+2020/01/13 12:13:16 WebServer startet
+2020/01/13 14:35:33 WebServer startet
+2020/01/13 16:42:52 WebServer startet
+2020/01/14 12:06:18 WebServer startet
+2020/01/14 12:06:21 template: index.html:26:31: executing "index.html" at <.NavModel.Touren>: can't evaluate field NavModel in type main.IndexModel
+2020/01/14 12:07:08 WebServer startet
+2020/01/14 12:36:22 WebServer startet
+2020/01/14 12:36:37 languageHandler
+2020/01/14 12:38:13 WebServer startet
+2020/01/14 12:38:21 languageHandler
+2020/01/14 12:38:21 <nil>
+2020/01/14 12:40:09 WebServer startet
+2020/01/14 12:40:15 languageHandler
+2020/01/14 12:40:15 map[Accept:[application/json, text/javascript, */*; q=0.01] Accept-Encoding:[gzip, deflate, br] Accept-Language:[de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,it;q=0.6] Connection:[keep-alive] Content-Length:[13] Content-Type:[application/json; charset=UTF-8] Origin:[http://localhost:8080] Referer:[http://localhost:8080/main] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36] X-Requested-With:[XMLHttpRequest]]
+2020/01/14 12:40:15 &{0xc000004d00 <nil> <nil> false true {0 0} false false false 0x7403e0}
+2020/01/14 12:40:15 map[]
+2020/01/14 12:49:18 WebServer startet
+2020/01/14 12:49:27 languageHandler
+2020/01/14 12:49:27 map[Accept:[application/json, text/javascript, */*; q=0.01] Accept-Encoding:[gzip, deflate, br] Accept-Language:[de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,it;q=0.6] Connection:[keep-alive] Content-Length:[13] Content-Type:[application/json; charset=UTF-8] Origin:[http://localhost:8080] Referer:[http://localhost:8080/main] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36] X-Requested-With:[XMLHttpRequest]]
+2020/01/14 12:49:27 &{0xc000160000 <nil> <nil> false true {0 0} false false false 0x74acc0}
+2020/01/14 12:49:27 Sprache: 
+2020/01/14 12:49:27 map[]
+2020/01/14 12:52:51 WebServer startet
+2020/01/14 12:52:59 languageHandler
+2020/01/14 12:52:59 map[Accept:[application/json, text/javascript, */*; q=0.01] Accept-Encoding:[gzip, deflate, br] Accept-Language:[de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,it;q=0.6] Connection:[keep-alive] Content-Length:[13] Content-Type:[application/json; charset=UTF-8] Origin:[http://localhost:8080] Referer:[http://localhost:8080/main] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36] X-Requested-With:[XMLHttpRequest]]
+2020/01/14 12:52:59 &{0xc0000048a0 <nil> <nil> false true {0 0} false false false 0x74acc0}
+2020/01/14 12:52:59 Sprache: 
+2020/01/14 12:52:59 map[]
+2020/01/14 12:56:56 WebServer startet
+2020/01/14 12:57:03 languageHandler
+2020/01/14 12:57:03 map[Accept:[application/json, text/javascript, */*; q=0.01] Accept-Encoding:[gzip, deflate, br] Accept-Language:[de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,it;q=0.6] Connection:[keep-alive] Content-Length:[13] Content-Type:[application/json; charset=UTF-8] Origin:[http://localhost:8080] Referer:[http://localhost:8080/main] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36] X-Requested-With:[XMLHttpRequest]]
+2020/01/14 12:57:03 &{0xc000134020 <nil> <nil> false true {0 0} false false false 0x74acc0}
+2020/01/14 12:57:03 Sprache: &{}
+2020/01/14 12:57:03 map[]
+2020/01/14 12:58:12 languageHandler
+2020/01/14 12:58:12 map[Accept:[application/json, text/javascript, */*; q=0.01] Accept-Encoding:[gzip, deflate, br] Accept-Language:[de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,it;q=0.6] Connection:[keep-alive] Content-Length:[7] Content-Type:[application/json; charset=UTF-8] Origin:[http://localhost:8080] Referer:[http://localhost:8080/main] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36] X-Requested-With:[XMLHttpRequest]]
+2020/01/14 12:58:12 &{0xc0001345c0 <nil> <nil> false true {0 0} false false false 0x74acc0}
+2020/01/14 12:58:12 Sprache: &{}
+2020/01/14 12:58:12 map[]
+2020/01/14 12:58:27 WebServer startet
+2020/01/14 12:58:33 languageHandler
+2020/01/14 12:58:33 map[Accept:[application/json, text/javascript, */*; q=0.01] Accept-Encoding:[gzip, deflate, br] Accept-Language:[de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,it;q=0.6] Connection:[keep-alive] Content-Length:[7] Content-Type:[application/json; charset=UTF-8] Origin:[http://localhost:8080] Referer:[http://localhost:8080/main] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36] X-Requested-With:[XMLHttpRequest]]
+2020/01/14 12:58:33 &{0xc00019a000 <nil> <nil> false true {0 0} false false false 0x74acc0}
+2020/01/14 12:58:33 Sprache: &{}
+2020/01/14 12:58:33 map[]
+2020/01/14 13:08:05 WebServer startet
+2020/01/14 13:08:15 languageHandler
+2020/01/14 13:08:15 map[Accept:[application/json, text/javascript, */*; q=0.01] Accept-Encoding:[gzip, deflate, br] Accept-Language:[de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,it;q=0.6] Connection:[keep-alive] Content-Length:[7] Content-Type:[application/json; charset=UTF-8] Origin:[http://localhost:8080] Referer:[http://localhost:8080/main] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36] X-Requested-With:[XMLHttpRequest]]
+2020/01/14 13:08:15 &{0xc0000ec260 <nil> <nil> false true {0 0} false false false 0x74acc0}
+2020/01/14 13:08:15 JSON konnte nicht gelesen werden!
+2020/01/14 13:52:00 WebServer startet
+2020/01/14 13:52:09 languageHandler
+2020/01/14 13:52:09 map[Accept:[application/json, text/javascript, */*; q=0.01] Accept-Encoding:[gzip, deflate, br] Accept-Language:[de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,it;q=0.6] Connection:[keep-alive] Content-Length:[7] Content-Type:[application/json; charset=UTF-8] Origin:[http://localhost:8080] Referer:[http://localhost:8080/main] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36] X-Requested-With:[XMLHttpRequest]]
+2020/01/14 13:52:09 &{0xc000004d20 <nil> <nil> false true {0 0} false false false 0x74acc0}
+2020/01/14 13:52:09 Fehler: JSON konnte nicht gelesen werden! {}invalid character 'l' looking for beginning of value
+2020/01/14 13:56:28 WebServer startet
+2020/01/14 13:58:08 languageHandler
+2020/01/14 13:58:08 map[Accept:[application/json, text/javascript, */*; q=0.01] Accept-Encoding:[gzip, deflate, br] Accept-Language:[de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,it;q=0.6] Connection:[keep-alive] Content-Length:[10] Content-Type:[application/json; charset=UTF-8] Origin:[http://localhost:8080] Referer:[http://localhost:8080/main] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36] X-Requested-With:[XMLHttpRequest]]
+2020/01/14 13:58:08 &{0xc0001f0000 <nil> <nil> false true {0 0} false false false 0x74acc0}
+2020/01/14 13:58:08 Fehler: JSON konnte nicht gelesen werden! {}invalid character 's' looking for beginning of value
+2020/01/14 13:58:17 WebServer startet
+2020/01/14 13:58:22 languageHandler
+2020/01/14 13:58:22 map[Accept:[application/json, text/javascript, */*; q=0.01] Accept-Encoding:[gzip, deflate, br] Accept-Language:[de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,it;q=0.6] Connection:[keep-alive] Content-Length:[10] Content-Type:[application/json; charset=UTF-8] Origin:[http://localhost:8080] Referer:[http://localhost:8080/main] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36] X-Requested-With:[XMLHttpRequest]]
+2020/01/14 13:58:22 &{0xc0000044c0 <nil> <nil> false true {0 0} false false false 0x74acc0}
+2020/01/14 13:58:22 Fehler: JSON konnte nicht gelesen werden! {}invalid character 's' looking for beginning of value
+2020/01/14 13:59:32 WebServer startet
+2020/01/14 14:00:10 languageHandler
+2020/01/14 14:00:10 map[Accept:[application/json, text/javascript, */*; q=0.01] Accept-Encoding:[gzip, deflate, br] Accept-Language:[de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,it;q=0.6] Connection:[keep-alive] Content-Length:[10] Content-Type:[application/json; charset=UTF-8] Origin:[http://localhost:8080] Referer:[http://localhost:8080/main] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36] X-Requested-With:[XMLHttpRequest]]
+2020/01/14 14:00:10 &{0xc00015e720 <nil> <nil> false true {0 0} false false false 0x74acc0}
+2020/01/14 14:00:10 Fehler: JSON konnte nicht gelesen werden! {}invalid character 's' looking for beginning of value
+2020/01/15 15:16:58 WebServer startet
+2020/01/15 15:19:34 WebServer startet
+2020/01/15 15:19:50 loading index
+2020/01/15 15:19:56 languageHandler
+2020/01/15 15:19:56 map[Accept:[application/json, text/javascript, */*; q=0.01] Accept-Encoding:[gzip, deflate, br] Accept-Language:[de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,it;q=0.6] Connection:[keep-alive] Content-Length:[10] Content-Type:[application/json; charset=UTF-8] Origin:[http://localhost:8080] Referer:[http://localhost:8080/main] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36] X-Requested-With:[XMLHttpRequest]]
+2020/01/15 15:19:56 &{0xc0000ea480 <nil> <nil> false true {0 0} false false false 0x74acc0}
+2020/01/15 15:19:56 Fehler: JSON konnte nicht gelesen werden! {}invalid character 's' looking for beginning of value
+2020/01/15 15:21:26 WebServer startet
+2020/01/15 15:21:43 loading index
+2020/01/15 15:21:52 languageHandler
+2020/01/15 15:21:52 map[Accept:[application/json, text/javascript, */*; q=0.01] Accept-Encoding:[gzip, deflate, br] Accept-Language:[de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,it;q=0.6] Connection:[keep-alive] Content-Length:[10] Content-Type:[application/json; charset=UTF-8] Origin:[http://localhost:8080] Referer:[http://localhost:8080/main] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36] X-Requested-With:[XMLHttpRequest]]
+2020/01/15 15:21:52 &{0xc0001124a0 <nil> <nil> false true {0 0} false false false 0x74acc0}
+2020/01/15 15:21:52 Fehler: JSON konnte nicht gelesen werden! {}invalid character 's' looking for beginning of value
+2020/01/15 15:25:11 WebServer startet
+2020/01/15 15:25:29 loading index
+2020/01/15 15:25:36 languageHandler
+2020/01/15 15:25:36 map[Accept:[application/json, text/javascript, */*; q=0.01] Accept-Encoding:[gzip, deflate, br] Accept-Language:[de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,it;q=0.6] Connection:[keep-alive] Content-Length:[10] Content-Type:[application/json; charset=UTF-8] Origin:[http://localhost:8080] Referer:[http://localhost:8080/main] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36] X-Requested-With:[XMLHttpRequest]]
+2020/01/15 15:25:36 &{0xc0001b2000 <nil> <nil> false true {0 0} false false false 0x74acc0}
+2020/01/15 15:25:36 Fehler: JSON konnte nicht gelesen werden! {}invalid character 's' looking for beginning of value
+2020/01/15 15:39:25 WebServer startet
+2020/01/15 15:39:29 loading index
+2020/01/15 15:39:32 languageHandler
+2020/01/15 15:39:32 map[Accept:[application/json, text/javascript, */*; q=0.01] Accept-Encoding:[gzip, deflate, br] Accept-Language:[de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,it;q=0.6] Connection:[keep-alive] Content-Length:[10] Content-Type:[application/json; charset=UTF-8] Origin:[http://localhost:8080] Referer:[http://localhost:8080/main] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36] X-Requested-With:[XMLHttpRequest]]
+2020/01/15 15:39:32 Body: &{0xc0001303c0 <nil> <nil> false true {0 0} false false false 0x74acc0}
+2020/01/15 15:39:32 Fehler: JSON konnte nicht gelesen werden! {}invalid character 's' looking for beginning of value
+2020/01/15 15:43:53 WebServer startet
+2020/01/15 15:43:56 loading index
+2020/01/15 15:44:02 languageHandler
+2020/01/15 15:44:02 map[Accept:[application/json, text/javascript, */*; q=0.01] Accept-Encoding:[gzip, deflate, br] Accept-Language:[de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,it;q=0.6] Connection:[keep-alive] Content-Length:[10] Content-Type:[application/json; charset=UTF-8] Origin:[http://localhost:8080] Referer:[http://localhost:8080/main] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36] X-Requested-With:[XMLHttpRequest]]
+2020/01/15 15:44:02 Body: &{0xc000160000 <nil> <nil> false true {0 0} false false false 0x74acc0}
+2020/01/15 15:44:02 Fehler: JSON konnte nicht gelesen werden! {}invalid character 's' looking for beginning of value
+2020/01/15 15:47:01 WebServer startet
+2020/01/15 15:47:04 loading index
+2020/01/15 15:47:07 languageHandler
+2020/01/15 15:47:07 map[Accept:[application/json, text/javascript, */*; q=0.01] Accept-Encoding:[gzip, deflate, br] Accept-Language:[de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,it;q=0.6] Connection:[keep-alive] Content-Length:[12] Content-Type:[application/json; charset=UTF-8] Origin:[http://localhost:8080] Referer:[http://localhost:8080/main] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36] X-Requested-With:[XMLHttpRequest]]
+2020/01/15 15:47:07 Body: &{0xc000158480 <nil> <nil> false true {0 0} false false false 0x74acc0}
+2020/01/15 15:47:07 Fehler: JSON konnte nicht gelesen werden! {}invalid character 's' looking for beginning of value
+2020/01/15 15:47:44 WebServer startet
+2020/01/15 15:47:46 loading index
+2020/01/15 15:47:48 languageHandler
+2020/01/15 15:47:48 map[Accept:[application/json, text/javascript, */*; q=0.01] Accept-Encoding:[gzip, deflate, br] Accept-Language:[de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,it;q=0.6] Connection:[keep-alive] Content-Length:[12] Content-Type:[application/json; charset=UTF-8] Origin:[http://localhost:8080] Referer:[http://localhost:8080/main] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36] X-Requested-With:[XMLHttpRequest]]
+2020/01/15 15:47:48 Body: &{0xc0001323a0 <nil> <nil> false true {0 0} false false false 0x74acc0}
+2020/01/15 15:47:48 Fehler: JSON konnte nicht gelesen werden! {}invalid character 's' looking for beginning of value
+2020/01/15 15:50:03 WebServer startet
+2020/01/15 15:50:07 loading index
+2020/01/15 15:50:10 languageHandler
+2020/01/15 15:50:10 map[Accept:[application/json, text/javascript, */*; q=0.01] Accept-Encoding:[gzip, deflate, br] Accept-Language:[de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,it;q=0.6] Connection:[keep-alive] Content-Length:[12] Content-Type:[application/json; charset=UTF-8] Origin:[http://localhost:8080] Referer:[http://localhost:8080/main] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36] X-Requested-With:[XMLHttpRequest]]
+2020/01/15 15:50:10 Body: &{0xc000182000 <nil> <nil> false true {0 0} false false false 0x74acc0}
+2020/01/15 15:50:10 Fehler: JSON konnte nicht gelesen werden! {}invalid character 'S' looking for beginning of value
+2020/01/15 15:51:28 WebServer startet
+2020/01/15 15:51:36 loading index
+2020/01/15 15:51:39 languageHandler
+2020/01/15 15:51:39 map[Accept:[application/json, text/javascript, */*; q=0.01] Accept-Encoding:[gzip, deflate, br] Accept-Language:[de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,it;q=0.6] Connection:[keep-alive] Content-Length:[18] Content-Type:[application/json; charset=UTF-8] Origin:[http://localhost:8080] Referer:[http://localhost:8080/main] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36] X-Requested-With:[XMLHttpRequest]]
+2020/01/15 15:51:39 Body: &{0xc000004ac0 <nil> <nil> false true {0 0} false false false 0x74acc0}
+2020/01/15 15:51:39 Sprache: &{test}
+2020/01/15 15:51:39 map[]
+2020/01/15 15:52:26 WebServer startet
+2020/01/15 15:52:34 loading index
+2020/01/15 15:52:37 languageHandler
+2020/01/15 15:52:37 map[Accept:[application/json, text/javascript, */*; q=0.01] Accept-Encoding:[gzip, deflate, br] Accept-Language:[de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,it;q=0.6] Connection:[keep-alive] Content-Length:[18] Content-Type:[application/json; charset=UTF-8] Origin:[http://localhost:8080] Referer:[http://localhost:8080/main] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36] X-Requested-With:[XMLHttpRequest]]
+2020/01/15 15:52:37 Body: &{0xc0001284a0 <nil> <nil> false true {0 0} false false false 0x74acc0}
+2020/01/15 15:52:37 Sprache: &{}
+2020/01/15 15:52:37 map[]
+2020/01/15 15:54:43 WebServer startet
+2020/01/15 15:54:46 loading index
+2020/01/15 15:54:49 languageHandler
+2020/01/15 15:54:49 map[Accept:[application/json, text/javascript, */*; q=0.01] Accept-Encoding:[gzip, deflate, br] Accept-Language:[de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,it;q=0.6] Connection:[keep-alive] Content-Length:[18] Content-Type:[application/json; charset=UTF-8] Origin:[http://localhost:8080] Referer:[http://localhost:8080/main] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36] X-Requested-With:[XMLHttpRequest]]
+2020/01/15 15:54:49 Body: &{0xc00010c4c0 <nil> <nil> false true {0 0} false false false 0x74acc0}
+2020/01/15 15:54:49 Sprache: &{test}
+2020/01/15 15:54:49 map[]
+2020/01/15 16:00:52 WebServer startet
+2020/01/15 16:00:58 loading index
+2020/01/15 16:01:02 languageHandler
+2020/01/15 16:01:02 Sprache: &{test}
+2020/01/15 16:01:02 map[]
+2020/01/15 16:01:18 languageHandler
+2020/01/15 16:01:18 Fehler: JSON konnte nicht gelesen werden! {}EOF
+2020/01/15 16:12:09 WebServer startet
+2020/01/15 16:12:13 languageHandler
+2020/01/15 16:14:43 WebServer startet
+2020/01/15 16:14:47 languageHandler
+2020/01/15 16:14:54 loading index
+2020/01/15 16:14:57 languageHandler

@@ -1,0 +1,29 @@
+.c-w-10 {
+    width: 10rem;
+}
+
+.c-w-30 {
+    width: 30rem;
+}
+
+.wappen {
+    width: 15%;
+    height: auto;
+}
+
+
+/* Medium (md) */
+@media (min-width: 768px) {
+    .wappen {
+        width: 25%;
+        height: auto;
+    }
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+    .wappen {
+        width: 35%;
+        height: auto;
+    }
+}
