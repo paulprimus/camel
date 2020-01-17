@@ -1,7 +1,7 @@
 package main
 
 import (
-	"encoding/json"
+	//"encoding/json"
 	"golang.org/x/text/language"
 	"html/template"
 	"io"
@@ -9,6 +9,9 @@ import (
 	"net/http"
 	"os"
 )
+
+
+var tmpl *template.Template
 
 func main() {
 	var logfile *os.File
@@ -29,40 +32,33 @@ func main() {
 	if err = http.ListenAndServe(":8080", nil); err != nil {
 		log.Fatal(err)
 	}
-
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	log.Println("loading index")
 	model := LookUpModel(language.German)
-	tmpl := template.Must(template.ParseFiles("templates/index.html"))
-	err := tmpl.Execute(w, model)
-	if err != nil {
+	tmpl = template.Must(template.ParseFiles("templates/index.html"))
+	if err := tmpl.Execute(w, model); err != nil {
 		log.Fatal(err)
 	}
 }
 
-type test struct {
-	Sprache string //`json:'sprache'`
-}
-
 func languageHandler(w http.ResponseWriter, r *http.Request) {
 	log.Println("languageHandler")
-	var err error
 	if r.Method == http.MethodPost {
-		var answer []byte
-		sprache := &test{}
-		if err = json.NewDecoder(r.Body).Decode(sprache); err != nil {
-			log.Fatal("Fehler: JSON konnte nicht gelesen werden! {}", err)
-			http.Error(w, err.Error(), http.StatusInternalServerError)
-			return
+		var err error
+		var sprache language.Tag
+		if sprache, err = language.Parse(r.FormValue("sprache")); err!= nil {
+			log.Println("Sprache konnte nicht ermittelt werden!")
 		}
-		if answer, err = json.Marshal(sprache); err != nil {
-			log.Fatal("Fehler: Antwort konnte nicht erzeugt werden! {}", err)
+		log.Println("Sprache: ", sprache)
+		model := LookUpModel(sprache)
+		if err = tmpl.ExecuteTemplate(w, "index.html", model); err != nil {
+			log.Println(err)
 			http.Error(w, err.Error(), http.StatusInternalServerError)
 		}
-		w.Write(answer)
 	} else {
-		http.Error(w, "Falsche HTTP Methode", http.StatusInternalServerError)
+		http.Error(w, "Falsche HTTP Methode", http.StatusMethodNotAllowed)
 	}
+	log.Println("Done!")
 }
