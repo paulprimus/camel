@@ -1,9 +1,25 @@
+body {
+    font-family: ubuntu,"times new roman", times, roman, serif;
+}
+
+
 .c-w-10 {
     width: 10rem;
 }
-
+.c-w-20 {
+    width:20rem;
+}
 .c-w-30 {
-    width: 30rem;
+    width:30rem;
+}
+.c-w-40 {
+    width: 40rem;
+}
+.c-w-60 {
+    width: 60rem;
+}
+.c-w-80 {
+    width: 80rem;
 }
 
 .wappen {
@@ -26,4 +42,19 @@
         width: 35%;
         height: auto;
     }
+}
+
+/*.bundesadler {*/
+/*    background-image: url("../images/442px-Austria_Bundesadler.png"); !* The image used *!*/
+/*    background-position: center top;*/
+/*    background-repeat: no-repeat; !* Do not repeat the image *!*/
+/*    !*background-size: cover; !* Resize the background image to cover the entire container *!*!*/
+/*}*/
+
+.bundesadler {
+    background-color: lightgray;
+    background-position: center top;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-image: radial-gradient(red, white, red);
+    /*background-size: cover; !* Resize the background image to cover the entire container *!*/
 }

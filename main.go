@@ -10,7 +10,6 @@ import (
 	"os"
 )
 
-
 var tmpl *template.Template
 
 func main() {
@@ -36,6 +35,7 @@ func main() {
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	log.Println("loading index")
+	locateVisitor(r)
 	model := LookUpModel(language.German)
 	tmpl = template.Must(template.ParseFiles("templates/index.html"))
 	if err := tmpl.Execute(w, model); err != nil {
@@ -43,12 +43,16 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+func locateVisitor(r *http.Request) {
+	log.Println(r.Header)
+}
+
 func languageHandler(w http.ResponseWriter, r *http.Request) {
 	log.Println("languageHandler")
 	if r.Method == http.MethodPost {
 		var err error
 		var sprache language.Tag
-		if sprache, err = language.Parse(r.FormValue("sprache")); err!= nil {
+		if sprache, err = language.Parse(r.FormValue("sprache")); err != nil {
 			log.Println("Sprache konnte nicht ermittelt werden!")
 		}
 		log.Println("Sprache: ", sprache)

@@ -14,46 +14,64 @@ type IndexModel struct {
 	Titel   string
 	Untertitel string
 	Nav     NavModel
+	Spaziergaenge FuehrungSpaziergaenge
 }
 
 type NavModel struct {
 	Touren,
-	Kontakt string
+	Uebermich string
+}
+
+type FuehrungSpaziergaenge struct {
+	Titel string
+	Kurzbeschreibung string
 }
 
 func InitIndexModel() {
 	messages = map[language.Tag]IndexModel{
 		language.German: {
 			Sprache: `<option value="de" selected>Deutsch</option>
-                    <option value="ru">Russisch</option>
-                    <option value="ukr">Ukrainisch</option>`,
-			Titel: "Titel bla bla",
-			Untertitel: "Gemeinsam Österreich entdecken",
+                    <option value="ru">Русский</option>
+                    <option value="ukr">Українська</option>`,
+			Titel: "Fremdenführer Kateryna Pacher",
+			Untertitel: "Österreich entdecken",
 			Nav: NavModel{
 				Touren:  "Touren",
-				Kontakt: "konkat",
+				Uebermich: "Über mich",
+			},
+			Spaziergaenge: FuehrungSpaziergaenge {
+				Titel: "Spaziergänge",
+				Kurzbeschreibung: "Wien ist klein und die Wege sind kurz. Alleine im Zentrum Wiens gibt es unglaublich viel zum Entdecken",
 			},
 		},
 		language.Russian: {
 			Sprache: `<option value="de">Deutsch</option>
-                    <option value="ru" selected>Russisch</option>
-                    <option value="ukr">Ukrainisch</option>`,
+                    <option value="ru" selected>Русский</option>
+                    <option value="ukr">Українська</option>`,
 			Titel: "исследовать",
 			Untertitel: "untertitel russ",
 			Nav: NavModel{
 				Touren:  "tyr",
-				Kontakt: "konmakt",
+				Uebermich: "Обо мне",
+			},
+			Spaziergaenge: FuehrungSpaziergaenge {
+				Titel: "Прогулки пешком",
+				Kurzbeschreibung: "Лорем ипсум долор сит амет, еу вис менандри медиоцрем улламцорпер. Иус ех фацер новум, ат лорем постулант урбанитас меи. Ет ест меис тинцидунт.",
 			},
 		},
 		language.Ukrainian: {
 			Sprache: `<option value="de">Deutsch</option>
-                    <option value="ru">Russisch</option>
-                    <option value="ukr" selected>Ukrainisch</option>`,
+                    <option value="ru">Русский</option>
+                    <option value="ukr" selected>Українська</option>`,
 			Titel: "titel ukrainisch",
 			Untertitel: "untertitel ukr",
 			Nav: NavModel{
 				Touren:  "tyr ukr",
-				Kontakt: "konmakt ukr",
+				Uebermich: "Про мене",
+			},
+			Spaziergaenge: FuehrungSpaziergaenge {
+				Titel: "Піші прогулянки",
+				Kurzbeschreibung: "Wien ist klein und die Wege sind kurz. Alleine im Zentrum Wiens gibt es unglaublich viel zum Entdecken",
 			},
 		},
 	}
