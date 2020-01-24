@@ -2,25 +2,19 @@ package main
 
 import (
 	"golang.org/x/text/language"
-	"html/template"
 )
 
-type I18nMap map[language.Tag]IndexModel
+type IndexModelMap map[language.Tag]IndexModel
 
-var messages I18nMap
+var messages IndexModelMap
 
 type IndexModel struct {
-	Sprache template.HTML
 	Titel   string
 	Untertitel string
 	Nav     NavModel
 	Spaziergaenge FuehrungSpaziergaenge
 }
 
-type NavModel struct {
-	Touren,
-	Uebermich string
-}
 
 type FuehrungSpaziergaenge struct {
 	Titel string
@@ -30,14 +24,14 @@ type FuehrungSpaziergaenge struct {
 func InitIndexModel() {
 	messages = map[language.Tag]IndexModel{
 		language.German: {
-			Sprache: `<option value="de" selected>Deutsch</option>
-                    <option value="ru">Русский</option>
-                    <option value="ukr">Українська</option>`,
 			Titel: "Fremdenführer Kateryna Pacher",
 			Untertitel: "Österreich entdecken",
 			Nav: NavModel{
 				Touren:  "Touren",
 				Uebermich: "Über mich",
+				Sprache: `<option value="de" selected>Deutsch</option>
+                    <option value="ru">Русский</option>
+                    <option value="ukr">Українська</option>`,
 			},
 			Spaziergaenge: FuehrungSpaziergaenge {
 				Titel: "Spaziergänge",
@@ -45,14 +39,14 @@ func InitIndexModel() {
 			},
 		},
 		language.Russian: {
-			Sprache: `<option value="de">Deutsch</option>
-                    <option value="ru" selected>Русский</option>
-                    <option value="ukr">Українська</option>`,
 			Titel: "исследовать",
 			Untertitel: "untertitel russ",
 			Nav: NavModel{
 				Touren:  "tyr",
 				Uebermich: "Обо мне",
+				Sprache: `<option value="de">Deutsch</option>
+                    <option value="ru" selected>Русский</option>
+                    <option value="ukr">Українська</option>`,
 			},
 			Spaziergaenge: FuehrungSpaziergaenge {
 				Titel: "Прогулки пешком",
@@ -60,14 +54,14 @@ func InitIndexModel() {
 			},
 		},
 		language.Ukrainian: {
-			Sprache: `<option value="de">Deutsch</option>
-                    <option value="ru">Русский</option>
-                    <option value="ukr" selected>Українська</option>`,
 			Titel: "titel ukrainisch",
 			Untertitel: "untertitel ukr",
 			Nav: NavModel{
 				Touren:  "tyr ukr",
 				Uebermich: "Про мене",
+				Sprache: `<option value="de">Deutsch</option>
+                    <option value="ru">Русский</option>
+                    <option value="ukr" selected>Українська</option>`,
 			},
 			Spaziergaenge: FuehrungSpaziergaenge {
 				Titel: "Піші прогулянки",
@@ -77,6 +71,6 @@ func InitIndexModel() {
 	}
 }
 
-func LookUpModel(tag language.Tag) IndexModel {
+func LookUpIndexModel(tag language.Tag) IndexModel {
 	return messages[tag]
 }

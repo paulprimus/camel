@@ -16,7 +16,7 @@
     <div class="flex items-center w-full">
         <div class="flex flex-grow text-gray-700">
             <div class="flex-grow">
-                <a class="font-bold text-md lg:text-3xl hover:text-gray-600" href="#">
+                <a class="font-bold text-md lg:text-3xl hover:text-gray-600" href="/">
                     Explore Austria
                 </a>
             </div>
@@ -24,7 +24,7 @@
 
         <div class="flex items-center text-sm lg:text-lg tracking-wider text-gray-700 bg-gray-200 invisible md:visible ">
             <div>
-                <a href=" #responsive-header" class="hover:text-gray-600 mr-4">
+                <a href="/touren" class="hover:text-gray-600 mr-4">
                     {{.Nav.Touren}}
                 </a>
             </div>
@@ -37,7 +37,7 @@
             <div class="inline-blick relative">
                 <select id="sprache-combo"
                         class="block appearance-none w-full bg-gray-100 border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded  leading-tight focus:outline-none focus:shadow-outline">
-                    {{.Sprache}}
+                    {{.Nav.Sprache}}
                 </select>
                 <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                     <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -165,51 +165,50 @@
         <p class="text-sm">©Copyright 2019 by Paul Primus. All rights reversed.</p>
     </footer>
 </div>
+<script src="static/js/camel.js" type="application/javascript"></script>
 <script>
     'use strict';
-    var camel = (function () {
-        let test = function () {
-            console.log("test");
-        }
+    var index = (function () {
+
         var onSpracheCombo = function () {
             $("#sprache-combo").change((e) => {
                 console.log("key pressed", e);
-                _sendLanguage($("#sprache-combo").val())
+                _changeLanguage($("#sprache-combo").val())
             });
         }
+        let _changeLanguage = function (sprache) {
 
-        let _sendLanguage = function (sprache) {
-
-            let url = '/main/language';
-            var formData = new FormData();
-            formData.append('sprache', sprache);
+            let url = '/language';
+            let formData = new FormData();
+            formData.append("sprache", sprache);
+            formData.append("template", "index.html");
             $.ajax({
+
                 type: "POST",
                 url: url,
                 contentType: false,
                 data: formData,
                 processData: false,
-                success: function (data) {
-                    console.log("Erfolgreich: Sprache wurde geaendert!");
+                success: function(data) {
                     let newDoc = document.open("text/html", "replace");
                     newDoc.write(data);
                     newDoc.close();
                 },
                 error: function (err) {
                     console.log("Fehler! Sprache konnte nicht geaendert werden!", err);
+                },
+                complete: function () {
+                    console.log("AJAX Request erfolgreich abgeschlossen!");
                 }
             });
         }
 
         return {
-            test: test,
             onSpracheCombo: onSpracheCombo
         }
     })();
     $(function () {
-        camel.test();
-        camel.onSpracheCombo();
-        console.log("Bereit!");
+        index.onSpracheCombo();
     })
 </script>
 </body>
